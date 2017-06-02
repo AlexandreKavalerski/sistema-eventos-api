@@ -864,13 +864,4 @@ $app->delete('events/{idEvent}/committee', function($idEvent, Request $request) 
 /*************************************************************/
 /*************************************************************/
 $app->run();
-#ARRUMAR
-/*
- * return $app->json(); -- FEITO
- * classes erros substituindo HttpException dos managers por Exceção específicas -- FEITO
- * usuario possui foto (add campo na tabela usuario) -- FEITO
- * add retorno de novo token em rotas de papel de usuario em evento -- FEITO
- * retornar id do [algo] que está sendo excluido -- FEITO
-    * inserção e alteração posso retornar o objeto completo -- FEITO
- */
 ?>
